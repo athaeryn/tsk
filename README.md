@@ -9,17 +9,22 @@ may like it, you may not.
 
 ## Usage
 
-tsk [start[=<name>]|stop|status|report|clear|help]
+Run:
 
-	start:	Start a task.
-	stop:	Stop the currently running task.
-	status:	Display the current task,  if any.
-	report:	Shows a list of all tasks and time taken for each.
-	clear:	Clear out the log file. Use with caution.
-	help:	Display this help text. Meta.
+    $ tsk help
+
+    Usage: tsk [start[=<name>]|stop|status|report|clear|help]
+
+        start:	Start a task.
+        stop:	Stop the currently running task.
+        status:	Display the current task,  if any.
+        report:	Shows a list of all tasks and time taken for each.
+        clear:	Clear out the log file. Use with caution.
+        help:	Display this help text. Meta.
 
 Example:
-	tsk start "Doing something"
+
+	$ tsk start "Doing something"
 
 ## Contributing
 
