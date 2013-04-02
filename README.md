@@ -1,24 +1,25 @@
 # Tsk
 
-TODO: Write a gem description
+This is a simple task tracker that I wrote to work the way I needed it to. You
+may like it, you may not.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'tsk'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install tsk
 
 ## Usage
 
-TODO: Write usage instructions here
+tsk [start[=<name>]|stop|status|report|clear|help]
+
+	start:	Start a task.
+	stop:	Stop the currently running task.
+	status:	Display the current task,  if any.
+	report:	Shows a list of all tasks and time taken for each.
+	clear:	Clear out the log file. Use with caution.
+	help:	Display this help text. Meta.
+
+Example:
+	tsk start "Doing something"
 
 ## Contributing
 
