@@ -2,8 +2,8 @@ require "tsk/version"
 
 module Tsk
     class Main
-        def self.hi
-            puts "'Ello."
+        def run args
+            puts args
         end
     end
 end

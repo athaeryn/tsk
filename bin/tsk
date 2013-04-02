@@ -2,4 +2,4 @@
 
 require 'tsk'
 
-Tsk::Main.hi
+Tsk::Main.new.run ARGV
